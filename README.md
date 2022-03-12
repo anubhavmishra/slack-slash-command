@@ -142,3 +142,7 @@ https://user-images.githubusercontent.com/4024506/158033577-8f542a28-f304-491f-a
 The video below showcases how to install Slack application in a channel and invoke `/hello` slash command to get a response back from the "Slack Slash Command" application.
 
 https://user-images.githubusercontent.com/4024506/158033583-5e245540-0702-4b43-978d-21873a1c511e.mov
+
+## Thanks
+
+Thank you to [Emily Goldfein](https://medium.com/@emilygoldfein) for the [Creating Slack Slash Commands using Go](https://medium.com/@emilygoldfein/creating-slack-slash-commands-using-go-3cea3b3f0920) blog post as this project uses a lot of the code in the blog post. This project just removes the Open Weather Map API usage in the application and gives users a more generic example to create a Slack slash command application.
