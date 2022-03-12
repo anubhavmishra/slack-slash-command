@@ -46,7 +46,7 @@ make build-service
 
 The video below showcases how to create a Slack app and find the verification token.
 
-
+https://user-images.githubusercontent.com/4024506/158033562-b41e8678-7151-492a-9cf8-47a28a76c204.mov
 
 Set Slack token
 
@@ -118,7 +118,7 @@ For this example, the `https` URL will look like this `https://8dec-49-207-209-1
 
 The video below showcases how to create a slash command.
 
-
+https://user-images.githubusercontent.com/4024506/158033572-bac3294d-4b85-43f0-b38f-8bd7ef8d3869.mov
 
 ### Install Slack app
 
@@ -128,7 +128,7 @@ The video below showcases how to create a slash command.
 
 The video below showcases how to install a Slack app.
 
-
+https://user-images.githubusercontent.com/4024506/158033577-8f542a28-f304-491f-a648-a42c055af37b.mov
 
 ### Use the slash command in Slack
 
@@ -141,4 +141,4 @@ The video below showcases how to install a Slack app.
 
 The video below showcases how to install Slack application in a channel and invoke `/hello` slash command to get a response back from the "Slack Slash Command" application.
 
-
+https://user-images.githubusercontent.com/4024506/158033583-5e245540-0702-4b43-978d-21873a1c511e.mov
