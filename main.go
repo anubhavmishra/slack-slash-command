@@ -10,7 +10,8 @@ import (
 	"github.com/nlopes/slack"
 )
 
-const slackCommand = "/hello"
+// Customize the slashCommand to anything
+const slashCommand = "/hello"
 
 func slashCommandHandler() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
@@ -26,11 +27,11 @@ func slashCommandHandler() http.HandlerFunc {
 		}
 
 		switch s.Command {
-		case slackCommand:
+		case slashCommand:
 			log.Printf("%s slack command is issued\n", slackCommand)
-
+			// Add code here!
 			response := "Hello World!"
-			// create a JSON response
+			// Create a JSON response
 			w.Header().Set("Content-Type", "application/json")
 			jsonResponse := make(map[string]string)
 			jsonResponse["response_type"] = "in_channel"
