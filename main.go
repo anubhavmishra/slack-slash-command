@@ -28,7 +28,7 @@ func slashCommandHandler() http.HandlerFunc {
 
 		switch s.Command {
 		case slashCommand:
-			log.Printf("%s slack command is issued\n", slackCommand)
+			log.Printf("%s slack command is issued\n", slashCommand)
 			// Add code here!
 			response := "Hello World!"
 			// Create a JSON response
